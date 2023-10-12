@@ -24,6 +24,7 @@ const HeaderBottom = () => {
 
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredProducts, setFilteredProducts] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [showSearchBar, setShowSearchBar] = useState(false);
 
   const handleSearch = (e) => {
